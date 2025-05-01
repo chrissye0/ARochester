@@ -112,6 +112,10 @@ nav a {
   text-align: center;
 }
 
+#transcript {
+  text-align: left;
+}
+
 footer {
   background-color: black;
   color: white;
