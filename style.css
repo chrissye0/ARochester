@@ -4,6 +4,8 @@
 nav {
   background-color: #1f1f1f;
   overflow: hidden;
+  padding: 10px 0px;
+  font-size: 20px;
 }
 
 nav a {
@@ -22,7 +24,7 @@ nav a {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   outline: none;
   color: white;
@@ -76,7 +78,10 @@ nav a {
 #poster {
   display: grid;
   height: 100%;
-  background-image: url('assets/sentinel.jpg')
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #1f1f1f;
+  background-position: center;
 }
 
 #content {
@@ -111,4 +116,14 @@ footer {
   background-color: black;
   color: white;
   padding: 30px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+}
+
+a:visited {
+  color: rgb(220, 220, 220);
+  background-color: transparent;
 }
