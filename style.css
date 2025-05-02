@@ -135,3 +135,31 @@ a:visited {
   color: rgb(220, 220, 220);
   background-color: transparent;
 }
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-grid a {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  display: block;
+  border-radius: 8px;
+  border: 2px solid white;
+  transition: transform 0.2s ease;
+}
+
+.gallery-grid a:hover {
+  transform: scale(1.05);
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
