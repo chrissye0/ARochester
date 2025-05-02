@@ -3,22 +3,20 @@
 
 <head>
     <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
-    <!-- we use three.js to handle raycasting -->
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex.js"></script>
-    <!-- AR.js A-Frame components -->
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <script src="script.js"></script>
     <title>ARochester</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body style="margin: 0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Top Navigation Menu -->
     <nav class="nav">
         <a href="index.html">ARochester</a>
-         <div class="dropdown">
+        <div class="dropdown">
             <button class="dropbtn">Locations</button>
             <div class="dropdown-content">
                 <a href="locations/GeneseeMuseum.html">Genesee Country Village & Museum</a>
@@ -31,13 +29,53 @@
                 <a href="locations/RIT.html">Rochester Institute of Technology</a>
                 <a href="locations/StrongMuseum.html">Strong Museum of Play</a>
             </div>
-         </div>
+        </div>
     </nav>
-    <!-- CONTENT -->
+
+    <!-- Page Header -->
+    <div id="header">ARochester</div>
+
+    <!-- About Section -->
+    <div id="about">
+        <h2>About</h2>
+        <p>
+            ARochester is an augmented reality project that brings Rochester’s culture and history to life. By using your phone or tablet,
+            you can explore iconic sites around the city in a completely new way—through immersive, interactive AR experiences. Visit different
+            locations around the city to find new posters and learn what makes it special to others in the community through anecdotal tales. 
+        </p>
+    </div>
+
+    <!-- Project Description -->
+    <div id="content">
+        <h2>Project Description</h2>
+        <p>
+            This site was created for IGME 480 to highlight the intersection of technology and storytelling. Our team selected notable
+            locations throughout Rochester and enhanced them with augmented reality content that’s accessible directly in a browser—no app download required.
+        </p>
+    </div>
+
+    <!-- Gallery Section -->
+    <div id="content">
+        <h2>Explore Locations</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+            <a href="locations/GeneseeMuseum.html">Genesee Country Village & Museum</a>
+            <a href="locations/GeneseeRiverwayTrail.html">Genesee Riverway Trail</a>
+            <a href="locations/GevaTheatre.html">Geva Theatre</a>
+            <a href="locations/HappyEarthTea.html">Happy Earth Tea</a>
+            <a href="locations/HighFalls.html">High Falls</a>
+            <a href="locations/MountHopeCemetery.html">Mount Hope Cemetery</a>
+            <a href="locations/NickTahouHots.html">Nick Tahou Hots</a>
+            <a href="locations/RIT.html">Rochester Institute of Technology</a>
+            <a href="locations/StrongMuseum.html">Strong Museum of Play</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
     <footer>
         <p>IGME 480 Project</p>
         <p>Christine Espeleta, Diya Iyer, Melodie Wang</p>
     </footer>
+
 </body>
 
 </html>
